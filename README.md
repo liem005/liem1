@@ -9,9 +9,9 @@ liem005@csu.fullerton.edu
 Brief description of the project: Variant of Leader Election on a Ring Topology
 Design and implement one algorithm related to leader election on a ring topology.
 1) Let N be the size of the distributed system, i.e. run your program with N identical copies.]
-  a) The value of N must be greater than 5.
-  b) Choose the value of N to be between 6 and 20.
-  c) Each run of a program must terminate within 60 minutes if N=10.
+a) The value of N must be greater than 5.
+b) Choose the value of N to be between 6 and 20.
+c) Each run of a program must terminate within 60 minutes if N=10.
 2) The even-odd-counting problem on a ring
   a) the process of rank k (k>0) receives the message from the process of rank (k-1) modulo n and 
   b) the process of rank k (k 0) sends a message to the process of rank (k+1) modulo n.
