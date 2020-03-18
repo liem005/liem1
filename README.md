@@ -28,10 +28,10 @@ liem005@csu.fullerton.edu
 4. Our Leader Election Problem in a Ring (to be implemented)
 - a) Concurrent two leader election algorithm
 - b) Sequential two leader election algorithm
-   i) Election of the odd leader:
+   - i) Election of the odd leader:
       1) If process 0 has an odd computer value, it sends it to process 1; if process 0 has an even computed value then it              sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the odd leader.
-   ii) Election of the even leader:
+   - ii) Election of the even leader:
       1) If process 0 has an even computer value, it sends it to process 1; if process 0 has an odd computed value then it              sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the even leader.
 
