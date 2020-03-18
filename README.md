@@ -23,16 +23,16 @@ liem005@csu.fullerton.edu
    - iii) If the value is greater than 100, then take modulo 100. 
    - iv) For example, if the process of rank 0 generates the random value 15, then the new value is 1150 (1 concatenated with 15                  concatenated with 0). Another example: if process of rank 2 generates the random value of 78 then the new value is 1782 (1              concatenated with 78 concatenated with 2).
 ### 3. Leader Election Problem in a Ring
-- a) Our algorithm selects two leaders, which we can call them as the president and the vice-president. The president will be      the smallest odd value and the vice president will be the smallest even value.
-- b) The value received finally at process 0 after it traverses the entire ring will be the smallest generated value in the        ring and will be declared by process 0 as the leader.
+- a) Our algorithm selects two leaders, which we can call them as the president and the vice-president. The president will be the            smallest odd value and the vice president will be the smallest even value.
+- b) The value received finally at process 0 after it traverses the entire ring will be the smallest generated value in the ring              and will be declared by process 0 as the leader.
 ### 4. Our Leader Election Problem in a Ring (to be implemented)
 - a) Concurrent two leader election algorithm
 - b) Sequential two leader election algorithm
    - i) Election of the odd leader:
-      1) If process 0 has an odd computer value, it sends it to process 1; if process 0 has an even computed value then it              sends the value of 19990 to process 1 and does the same comparision for others processes.
+      1) If process 0 has an odd computer value, it sends it to process 1; if process 0 has an even computed value then it                        sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the odd leader.
    - ii) Election of the even leader:
-      1) If process 0 has an even computer value, it sends it to process 1; if process 0 has an odd computed value then it              sends the value of 19990 to process 1 and does the same comparision for others processes.
+      1) If process 0 has an even computer value, it sends it to process 1; if process 0 has an odd computed value then it                        sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the even leader.
 
 
