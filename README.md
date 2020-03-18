@@ -15,13 +15,13 @@ liem005@csu.fullerton.edu
 - b) Choose the value of N to be between 6 and 20.
 - c) Each run of a program must terminate within 60 minutes if N=10.
 2. The even-odd-counting problem on a ring
-  a) the process of rank k (k>0) receives the message from the process of rank (k-1) modulo n and 
-  b) the process of rank k (k 0) sends a message to the process of rank (k+1) modulo n.
-  c) Each process generates a single random integer value and does some computations on it before sending it:
-    i) The value needs to be positive, so if the value is negative, then take the absolute value of it. 
-   ii) The value needs to be greater than 10 and less than 100, so if the value is less than 10, then add 10 to it.
-  iii) If the value is greater than 100, then take modulo 100. 
-   iv) For example, if the process of rank 0 generates the random value 15, then the new value is 1150 (1 concatenated with 15        concatenated with 0). Another example: if process of rank 2 generates the random value of 78 then the new value is 1782        (1 concatenated with 78 concatenated with 2).
+- a) the process of rank k (k>0) receives the message from the process of rank (k-1) modulo n and 
+- b) the process of rank k (k 0) sends a message to the process of rank (k+1) modulo n.
+- c) Each process generates a single random integer value and does some computations on it before sending it:
+   - i) The value needs to be positive, so if the value is negative, then take the absolute value of it. 
+   - ii) The value needs to be greater than 10 and less than 100, so if the value is less than 10, then add 10 to it.
+   - iii) If the value is greater than 100, then take modulo 100. 
+   - iv) For example, if the process of rank 0 generates the random value 15, then the new value is 1150 (1 concatenated with 15        concatenated with 0). Another example: if process of rank 2 generates the random value of 78 then the new value is 1782        (1 concatenated with 78 concatenated with 2).
 3. Leader Election Problem in a Ring
   a) Our algorithm selects two leaders, which we can call them as the president and the vice-president. The president will be      the smallest odd value and the vice president will be the smallest even value.
   b) The value received finally at process 0 after it traverses the entire ring will be the smallest generated value in the        ring and will be declared by process 0 as the leader.
