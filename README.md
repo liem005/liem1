@@ -6,8 +6,14 @@ Liem Tran
 liem005@csu.fullerton.edu
 
 # How to run the program
-- mpicc ringLeader.c
-- mpirun -n
+### Algorithm in C using MPI commands to solve the problem.
+## Compile the code 
+- '''mpicc ringLeader.c'''
+## Execute the code
+Run the executable number of processors of 12 with the following command:
+- '''mpirun -n 12 ./a.out'''
+- Replace 12 with the number of processors you wish to test.
+- Noted run with 10 procoessors will terminated the program.
 
 # Problem Description
 - In this project you will design and implement one algorithm related to leader election on a ring topology.
@@ -17,20 +23,6 @@ liem005@csu.fullerton.edu
 - a) The value of N must be greater than 5.
 - b) Choose the value of N to be between 6 and 20.
 - c) Each run of a program must terminate within 60 minutes if N=10.
---int even_odd_counting( int rank, int random)
---{
-  --//Generate a random value
-  --//Compare the random value for < 100 and > 0
-  --if (random < 0)
-      --random = abs(random);
- --if (random <= 10)
-      --random = random + 10;
-  --if (random > 100)
-   -- random = random % 100;
-    --printf("\nProcess of rank 0 generates the random value %d\n",random);
-    --random = (100 + random) * 10;
- -- return random;
---}
 ### 2. The even-odd-counting problem on a ring
 - a) the process of rank k (k>0) receives the message from the process of rank (k-1) modulo n and 
 - b) the process of rank k (k 0) sends a message to the process of rank (k+1) modulo n.
