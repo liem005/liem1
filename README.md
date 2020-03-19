@@ -24,7 +24,6 @@ Run the executable number of processors of 12 with the following command:
 - b) Choose the value of N to be between 6 and 20.
 - c) Each run of a program must terminate within 60 minutes if N=10.
 
-// Program terminates within 60 minutes if N = 10
   if (size == 10) {
        exit(1);
   } else if (size >= 6 || size <= 20) {
