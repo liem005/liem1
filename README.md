@@ -43,8 +43,16 @@ Run the executable number of processors of 12 with the following command:
    - ii) Election of the even leader:
       1) If process 0 has an even computer value, it sends it to process 1; if process 0 has an odd computed value then it                        sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the even leader.
+## Screenshots
+### Full Screen
+![alt text](https://github.com/liem005/liem1/blob/master/screen.PNG)
 ## Two snapshots of code executing for some two distinct values of N.     
-
+### 8 processors
+![alt text](https://github.com/liem005/liem1/blob/master/n8.PNG)
+### 20 processors
+![alt text](https://github.com/liem005/liem1/blob/master/n20.PNG)
+### 10 processors
+![alt text](https://github.com/liem005/liem1/blob/master/n10.PNG)
 
 
 
