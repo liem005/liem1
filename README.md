@@ -8,10 +8,10 @@ liem005@csu.fullerton.edu
 # How to run the program
 ### Algorithm in C using MPI commands to solve the problem.
 ## Compile the code 
-``` mpicc ringLeader.c ```
+- ``` mpicc ringLeader.c ```
 ## Execute the code
 Run the executable number of processors of 12 with the following command:
-``` mpirun -n 12 ./a.out ```
+- ``` mpirun -n 12 ./a.out ```
 - Replace 12 with the number of processors you wish to test.
 - Noted run with 10 procoessors will terminated the program.
 
