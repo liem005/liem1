@@ -6,11 +6,14 @@ Liem Tran
 liem005@csu.fullerton.edu
 
 # How to run the program
-## Compile 
 
-# Brief description of the project: Variant of Leader Election on a Ring Topology
+
+# Problem Description
+- In this project you will design and implement one algorithm related to leader election on a ring topology.
+## Brief description of the project: Variant of Leader Election on a Ring Topology
 ## Design and implement one algorithm related to leader election on a ring topology.
 ### 1. Let N be the size of the distributed system, i.e. run your program with N identical copies.
+# Pseudocode
 - a) The value of N must be greater than 5.
 - b) Choose the value of N to be between 6 and 20.
 - c) Each run of a program must terminate within 60 minutes if N=10.
@@ -34,6 +37,7 @@ liem005@csu.fullerton.edu
    - ii) Election of the even leader:
       1) If process 0 has an even computer value, it sends it to process 1; if process 0 has an odd computed value then it                        sends the value of 19990 to process 1 and does the same comparision for others processes.
       2) The smallest value received at process 0 is declared as the even leader.
+## Two snapshots of code executing for some two distinct values of N.     
 
 
 
